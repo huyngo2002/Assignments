@@ -1,0 +1,67 @@
+Arrive 1
+Sit 1
+Arrive 2
+Sit 2
+Leave 1 Turnaround 2 Wait 0
+Arrive 3
+Sit 3
+Arrive 4
+Sit 4
+Leave 2 Turnaround 3 Wait 0
+Arrive 5
+Sit 5
+Leave 3 Turnaround 4 Wait 0
+Preempt 4
+Sit 4
+Arrive 6
+Sit 6
+Preempt 5
+Sit 5
+Leave 4 Turnaround 5 Wait 0
+Arrive 7
+Sit 7
+Arrive 8
+Sit 8
+Leave 5 Turnaround 6 Wait 0
+Arrive 9
+Sit 9
+Preempt 6
+Sit 6
+Arrive 10
+Preempt 7
+Sit 10
+Arrive 11
+Preempt 8
+Sit 7
+Arrive 12
+Leave 6 Turnaround 7 Wait 0
+Sit 11
+Preempt 9
+Sit 8
+Preempt 10
+Sit 12
+Leave 7 Turnaround 9 Wait 1
+Sit 9
+Preempt 11
+Sit 10
+Preempt 8
+Sit 11
+Preempt 12
+Sit 8
+Preempt 9
+Sit 12
+Leave 8 Turnaround 12 Wait 3
+Sit 9
+Preempt 10
+Sit 10
+Preempt 11
+Sit 11
+Leave 9 Turnaround 13 Wait 3
+Leave 10 Turnaround 14 Wait 3
+Preempt 12
+Sit 12
+Leave 11 Turnaround 14 Wait 2
+Preempt 12
+Sit 12
+Leave 12 Turnaround 17 Wait 4
+PROGRAM SUCCESS!

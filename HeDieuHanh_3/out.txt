@@ -1,0 +1,122 @@
+flyfish@ubuntu:~/Desktop/A0$ time ./FIFO input.txt 
+Arrive 1
+Preempt 1
+Sit 1
+Arrive 2
+Preempt 2
+Sit 2
+Arrive 3
+Preempt 3
+Sit 3
+Arrive 4
+Preempt 4
+Sit 4
+Arrive 5
+Preempt 5
+Arrive 6
+Preempt 6
+Arrive 7
+Preempt 7
+Arrive 8
+Preempt 8
+Leave 4 Turnaround 4 Wait 0
+Sit 5
+Arrive 9
+Preempt 9
+Leave 1 Turnaround 8 Wait 0
+Sit 6
+Leave 2 Turnaround 8 Wait 0
+Sit 7
+Leave 3 Turnaround 10 Wait 0
+Sit 8
+Arrive 10
+Preempt 10
+Arrive 11
+Preempt 11
+Leave 7 Turnaround 6 Wait 5
+Sit 9
+Leave 5 Turnaround 8 Wait 3
+Sit 10
+Arrive 12
+Preempt 12
+Leave 6 Turnaround 12 Wait 4
+Sit 11
+Leave 8 Turnaround 10 Wait 5
+Sit 12
+Leave 9 Turnaround 10 Wait 8
+Leave 10 Turnaround 13 Wait 4
+Leave 12 Turnaround 8 Wait 5
+Leave 11 Turnaround 12 Wait 7
+PROGRAM SUCCESS!
+
+real    0m32.004s
+user    0m3.212s
+sys     0m0.688s
+
+==========================================================================================================
+flyfish@ubuntu:~/Desktop/A0$ time ./RR input.txt 
+Arrive 1
+Preempt 1
+Sit 1
+Arrive 2
+Preempt 2
+Arrive 3
+Preempt 3
+Sit 3
+Sit 2
+Arrive 4
+Preempt 4
+Sit 4
+Arrive 5
+Preempt 5
+Arrive 6
+Preempt 6
+Arrive 7
+Preempt 7
+Arrive 8
+Preempt 8
+Leave 4 Turnaround 4 Wait 0
+Sit 5
+Arrive 9
+Preempt 9
+Leave 1 Turnaround 8 Wait 0
+Sit 6
+Preempt 3
+Sit 7
+Leave 2 Turnaround 8 Wait 0
+Sit 8
+Arrive 10
+Preempt 10
+Arrive 11
+Preempt 11
+Leave 7 Turnaround 6 Wait 5
+Sit 9
+Leave 5 Turnaround 8 Wait 3
+Sit 3
+Preempt 6
+Sit 10
+Arrive 12
+Preempt 12
+Preempt 8
+Sit 11
+Leave 3 Turnaround 16 Wait 6
+Sit 6
+Leave 6 Turnaround 13 Wait 5
+Sit 12
+Preempt 9
+Sit 8
+Preempt 10
+Sit 9
+Preempt 11
+Sit 10
+Leave 8 Turnaround 16 Wait 9
+Sit 11
+Leave 9 Turnaround 11 Wait 9
+Leave 11 Turnaround 12 Wait 4
+Leave 12 Turnaround 8 Wait 5
+Leave 10 Turnaround 14 Wait 6
+PROGRAM SUCCESS!
+
+real    0m30.018s
+user    0m3.324s
+sys     0m0.543s

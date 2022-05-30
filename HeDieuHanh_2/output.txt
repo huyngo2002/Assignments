@@ -1,0 +1,107 @@
+flyfish@ubuntu:~/Desktop/noname$ g++ -pthread DiningPhilosophersWaiter.cpp 
+flyfish@ubuntu:~/Desktop/noname$ ./a.out 
+Please input the number of chopsticks(from 5 to 10): 5
+-> Philosopher 1 starts with id: 139901213808384
+-> Philosopher 2 starts with id: 139901205415680
+-> Philosopher 3 starts with id: 139901197022976
+-> Philosopher 4 starts with id: 139901188630272
+-> Philosopher 5 starts with id: 139901180237568
+Philosopher 5 is thinking...
+Philosopher 4 is thinking...
+Philosopher 3 is thinking...
+Philosopher 2 is thinking...
+Philosopher 1 is thinking...
+Philospher 2 is hungry
+Philospher 2 has picked up left chopstick
+Philospher 2 has picked up right chopstick
+Philosopher 2 is eating...
+Philospher 4 is hungry
+Philospher 4 has picked up left chopstick
+Philospher 4 has picked up right chopstick
+Philosopher 4 is eating...
+Philospher 3 is hungry
+Philospher 5 is hungry
+Philospher 1 is hungry
+Philospher 2 is done eating
+Philosopher 2 is thinking...
+Philospher 3 has picked up left chopstick
+Philospher 3 has picked up right chopstick
+Philosopher 3 is eating...
+Philospher 4 is done eating
+Philosopher 4 is thinking...
+Philospher 5 has picked up left chopstick
+Philospher 5 has picked up right chopstick
+Philosopher 5 is eating...
+Philospher 2 is hungry
+Philospher 4 is hungry
+Philospher 3 is done eating
+Philosopher 3 is thinking...
+Philospher 1 has picked up left chopstick
+Philospher 1 has picked up right chopstick
+Philosopher 1 is eating...
+Philospher 5 is done eating
+Philosopher 5 is thinking...
+Philospher 4 has picked up left chopstick
+Philospher 4 has picked up right chopstick
+Philosopher 4 is eating...
+Philospher 3 is hungry
+Philospher 1 is done eating
+Philosopher 1 is thinking...
+Philospher 2 has picked up left chopstick
+Philospher 2 has picked up right chopstick
+Philosopher 2 is eating...
+Philospher 5 is hungry
+Philospher 4 is done eating
+Philosopher 4 is thinking...
+Philospher 3 has picked up left chopstick
+Philospher 3 has picked up right chopstick
+Philosopher 3 is eating...
+Philospher 1 is hungry
+Philospher 4 is hungry
+Philospher 2 is done eating
+Philosopher 2 is thinking...
+Philospher 5 has picked up left chopstick
+Philospher 5 has picked up right chopstick
+Philosopher 5 is eating...
+Philospher 3 is done eating
+Philosopher 3 is thinking...
+Philospher 1 has picked up left chopstick
+Philospher 1 has picked up right chopstick
+Philosopher 1 is eating...
+Philospher 3 is hungry
+Philospher 2 is hungry
+Philospher 5 is done eating
+Philosopher 5 is thinking...
+Philospher 4 has picked up left chopstick
+Philospher 4 has picked up right chopstick
+Philosopher 4 is eating...
+Average waiting time of Philosopher 4 is 3.00 seconds
+Philospher 1 is done eating
+Philosopher 1 is thinking...
+Philospher 3 has picked up left chopstick
+Philospher 3 has picked up right chopstick
+Philosopher 3 is eating...
+Average waiting time of Philosopher 3 is 3.33 seconds
+Philospher 5 is hungry
+Philospher 4 is done eating
+Philospher 2 has picked up left chopstick
+Philospher 2 has picked up right chopstick
+Philosopher 2 is eating...
+Average waiting time of Philosopher 2 is 5.33 seconds
+Philospher 1 is hungry
+Philospher 3 is done eating
+Philospher 5 has picked up left chopstick
+Philospher 5 has picked up right chopstick
+Philosopher 5 is eating...
+Average waiting time of Philosopher 5 is 2.67 seconds
+Philospher 2 is done eating
+Philospher 1 has picked up left chopstick
+Philospher 1 has picked up right chopstick
+Philosopher 1 is eating...
+Average waiting time of Philosopher 1 is 5.33 seconds
+Philospher 5 is done eating
+Philospher 1 is done eating
+
+Average waiting time of a philosopher is 3.93 seconds
+
+Program SUCCESS!
