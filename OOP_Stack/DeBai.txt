@@ -1,0 +1,6 @@
+Xây dựng lớp biểu diễn khái niệm Stack. Sử dụng Stack kể trên, viết một ứng dụng cho phép giải quyết bài 
+tính giá trị một biểu thức trung tố (không dùng đệ qui). Biểu thức trung tố có thể bao gồm cả phép gọi hàm
+các hàm thông dụng như sqrt, exp, log, sin, cos...
+Ví dụ:
+Input: (5+2*2)-sqrt(4)
+Output: 7
